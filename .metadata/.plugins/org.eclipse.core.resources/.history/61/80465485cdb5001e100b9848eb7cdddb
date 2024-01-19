@@ -1,0 +1,49 @@
+import java.util.*;
+import java.io.*;
+
+
+public class A {
+	
+	
+
+}
+
+class Encapsulation {
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+}
+
+class ParentCat {
+	public String breed = "샴고양이";
+	void methodParent() {
+		System.out.println("어미 고양이");
+	}
+}
+
+class Kitten extends ParentCat {
+	void methodKitten() {
+		System.out.println("아기 고양이");
+	}
+}
+
+
+ class CatButler { //메서드 오버로딩
+	public void myRole(int age) {
+		System.out.println(age);
+	}
+	
+	public void myRole(String name) {
+		System.out.println(name);
+	}
+	
+	public void myRole(String name, int age) {
+		
+	}
+}

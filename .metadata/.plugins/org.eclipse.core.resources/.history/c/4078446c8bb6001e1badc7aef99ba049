@@ -1,0 +1,21 @@
+package com.section03;
+
+import java.util.*;
+
+public class Package05 {
+
+	public static void main(String[] args) {
+		
+		String str ="";
+		
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("입력 문자열 : ");
+		str = in.nextLine();
+		
+		int len = str.length();
+		
+
+	}
+
+}

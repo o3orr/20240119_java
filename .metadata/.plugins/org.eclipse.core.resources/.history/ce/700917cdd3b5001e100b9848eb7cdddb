@@ -1,0 +1,21 @@
+package ex03;
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int exam = 4000;
+		
+		int hour = exam / 3600;
+		
+		exam %= 3600;
+		int minute = exam / 60;
+		
+		exam %= 3600;
+		int second = exam;
+		
+		System.out.println(4000 % 60);
+	}
+
+}

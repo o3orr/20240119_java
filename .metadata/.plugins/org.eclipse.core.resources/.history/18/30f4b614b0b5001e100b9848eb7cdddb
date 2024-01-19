@@ -1,0 +1,25 @@
+import java.util.*;
+
+
+public class Welcome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("당신의 이름을 입력하세요 : ");
+		String userName = sc.next();
+		
+		System.out.println("연락처를 입력하세요 : ");
+		int userMobile = sc.nextInt();
+		
+		
+		String greeting = "Welcome to Shopping Mall";
+		String tagline = "Welcome to Book Market";
+		
+		
+
+	}
+
+}
