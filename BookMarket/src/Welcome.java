@@ -103,7 +103,9 @@ public class Welcome {
 		public static void menuGuestInfo(String name, int mobile) {
 			//고객 정보 출력메서드
 			System.out.println("현재 고객 정보 : " );
-			System.out.println("이름" + name + "연락처" + mobile);
+			Person person = new Person(name, mobile); //생성자로 사람 정보 초기화
+			System.out.println("이름 " + person.getName() + " 연락처 " + person.getPhone());
+			//초기화된 정보 출력하기
 		}
 		
 		
