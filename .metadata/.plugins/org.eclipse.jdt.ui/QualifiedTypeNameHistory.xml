@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.javamaster.mypackage.Cat"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="Example02"/>
     <fullyQualifiedTypeName name="Student"/>
     <fullyQualifiedTypeName name="Add"/>
     <fullyQualifiedTypeName name="Chain"/>
     <fullyQualifiedTypeName name="MemberChain"/>
-    <fullyQualifiedTypeName name="Dog"/>
     <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Example01"/>
+    <fullyQualifiedTypeName name="Inheritance01"/>
+    <fullyQualifiedTypeName name="Calculation"/>
+    <fullyQualifiedTypeName name="ex02.삼항연산자"/>
+    <fullyQualifiedTypeName name="ex03.For01"/>
+    <fullyQualifiedTypeName name="Dog"/>
+    <fullyQualifiedTypeName name="Animal"/>
+    <fullyQualifiedTypeName name="Example05"/>
+    <fullyQualifiedTypeName name="Subkitten"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="Parent"/>
+    <fullyQualifiedTypeName name="SuperCat2"/>
+    <fullyQualifiedTypeName name="SubKitten2"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Child2"/>
+    <fullyQualifiedTypeName name="Calculate"/>
+    <fullyQualifiedTypeName name="CalculateSquare"/>
+    <fullyQualifiedTypeName name="Kitten"/>
+    <fullyQualifiedTypeName name="Cat"/>
+    <fullyQualifiedTypeName name="Bike"/>
+    <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
