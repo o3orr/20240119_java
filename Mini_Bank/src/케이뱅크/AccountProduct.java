@@ -16,7 +16,7 @@ public class AccountProduct {
 		return name;
 	}
 	
-	// 세전 이자 금액
+	// 세전 이자 금액 구하기
 	public int basicInterest(int monthPayment, int period) {
 		this.payment = monthPayment;
 		this.period = period; // 매개변수로 받은 가입기간을 인스턴스변수안에 넣어줌
