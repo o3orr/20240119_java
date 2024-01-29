@@ -43,4 +43,9 @@
     <fullyQualifiedTypeName name="java.util.SortedMap"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="aaa.Car"/>
+    <fullyQualifiedTypeName name="Father"/>
+    <fullyQualifiedTypeName name="Baby"/>
+    <fullyQualifiedTypeName name="Chicken"/>
+    <fullyQualifiedTypeName name="Bird"/>
 </qualifiedTypeNameHistroy>

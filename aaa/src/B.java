@@ -24,5 +24,8 @@ public class B {
 			System.out.println(scores[i]);
 		}
 	}
+	
+	static void method() {
+	}
 
 }
