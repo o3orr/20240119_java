@@ -17,6 +17,11 @@ public class CartItem {
 		updateTotalPrice();
 	}
 	
+	private void updateTotalPrice() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	public String[] getItemBook() {
 		return itemBook; //배열 전체 반환
 	}

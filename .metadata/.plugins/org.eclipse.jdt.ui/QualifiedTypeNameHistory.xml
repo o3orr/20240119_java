@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.javamaster.mypackage.Cat"/>
-    <fullyQualifiedTypeName name="Example02"/>
-    <fullyQualifiedTypeName name="Student"/>
-    <fullyQualifiedTypeName name="Add"/>
-    <fullyQualifiedTypeName name="Chain"/>
-    <fullyQualifiedTypeName name="MemberChain"/>
-    <fullyQualifiedTypeName name="Person"/>
-    <fullyQualifiedTypeName name="Example01"/>
-    <fullyQualifiedTypeName name="Inheritance01"/>
     <fullyQualifiedTypeName name="Calculation"/>
     <fullyQualifiedTypeName name="ex02.삼항연산자"/>
     <fullyQualifiedTypeName name="ex03.For01"/>
@@ -48,4 +39,25 @@
     <fullyQualifiedTypeName name="Baby"/>
     <fullyQualifiedTypeName name="Chicken"/>
     <fullyQualifiedTypeName name="Bird"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="Example04"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="aaa.ArrayListExample"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenu"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
+    <fullyQualifiedTypeName name="ex01.Student"/>
+    <fullyQualifiedTypeName name="ex01.Book"/>
+    <fullyQualifiedTypeName name="aaa.Thread"/>
+    <fullyQualifiedTypeName name="aaa.RemoteControl"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
+    <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
 </qualifiedTypeNameHistroy>
