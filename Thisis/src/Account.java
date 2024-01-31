@@ -6,6 +6,11 @@ public class Account {
 	private int Deposit; //초기입금액
 
 	
+	public Account(String accountNum, String name,int Deposit ) {
+		this.accountNum = accountNum;
+		this.name = name;
+		this.Deposit = Deposit;
+	}
 	
 	
 	//Setter
@@ -43,18 +48,15 @@ public class Account {
 
 	//입금 기능
 	public void deposit(int money) {
-		
+		Deposit += money; 
 	}
 	
 	//출금 기능
 	public void withDraw(int money) {
-		
+		Deposit -= money;
 	}
 	
 	
-	public void createAccount() {
-		
-	}
 	
 	
 	

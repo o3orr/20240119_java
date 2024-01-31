@@ -2,9 +2,9 @@
 public class CartItem {
 	
 	private String[] itemBook = new String[7];
-	private String bookID;
-	private int quantity;
-	private int totalPrice;
+	private String bookID; //북아이디
+	private int quantity; //수량
+	private int totalPrice;  //총 가격
 	
 	public CartItem() {
 	 // 기본 생성자	
@@ -17,9 +17,8 @@ public class CartItem {
 		updateTotalPrice();
 	}
 	
-	private void updateTotalPrice() {
-		// TODO Auto-generated method stub
-		
+	public void updateTotalPrice() {// TODO Auto-generated method stub
+		totalPrice = Integer.parseInt(this.itemBook[2]) * this.quantity;
 	}
 
 	public String[] getItemBook() {
@@ -35,9 +34,22 @@ public class CartItem {
 	}
 	
 	public void setBookID(String bookID) {
-		
+		this.bookID = bookID;
+		this.updateTotalPrice();
 	}
 	
+	public int getQuantity() {
+		return quantity;
+	}
+	
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+		this.updateTotalPrice();
+	}
+	
+	public int getTotalPrice() {
+		return totalPrice;
+	}
 	
 
 }

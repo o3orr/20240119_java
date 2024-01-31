@@ -5,14 +5,13 @@ public class AudioBook extends Book{
 	private double length;
 	private String narrator;
 	
-	AudioBook() {}
+	public AudioBook() {}
 	
 	
-	AudioBook(String title, String author, int publicationYear, double length, String narrator) {
+	public AudioBook(String title, String author, int publicationYear, double length, String narrator) {
 		super(title, author, publicationYear);
 		this.length = length;
 		this.narrator = narrator;
-		// TODO Auto-generated constructor stub
 	}
 	
 	@Override

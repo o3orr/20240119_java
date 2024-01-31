@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Calculation"/>
-    <fullyQualifiedTypeName name="ex02.삼항연산자"/>
-    <fullyQualifiedTypeName name="ex03.For01"/>
-    <fullyQualifiedTypeName name="Dog"/>
-    <fullyQualifiedTypeName name="Animal"/>
-    <fullyQualifiedTypeName name="Example05"/>
-    <fullyQualifiedTypeName name="Subkitten"/>
-    <fullyQualifiedTypeName name="java.lang.Package"/>
-    <fullyQualifiedTypeName name="Parent"/>
-    <fullyQualifiedTypeName name="SuperCat2"/>
-    <fullyQualifiedTypeName name="SubKitten2"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Child2"/>
     <fullyQualifiedTypeName name="Calculate"/>
@@ -33,7 +22,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.SortedMap"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="aaa.Car"/>
     <fullyQualifiedTypeName name="Father"/>
     <fullyQualifiedTypeName name="Baby"/>
@@ -60,4 +48,16 @@
     <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
     <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
     <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="ch13.sec01.Product"/>
+    <fullyQualifiedTypeName name="ch13.sec01.HomeAgency"/>
+    <fullyQualifiedTypeName name="ch13.sec01.CarAgency"/>
+    <fullyQualifiedTypeName name="ch13.sec01.Box"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="ex01.Phone"/>
+    <fullyQualifiedTypeName name="ex01.SmartPhone"/>
+    <fullyQualifiedTypeName name="ex01.EBook"/>
+    <fullyQualifiedTypeName name="ch13.sec01.Account"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Account"/>
 </qualifiedTypeNameHistroy>

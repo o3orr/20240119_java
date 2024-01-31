@@ -6,13 +6,12 @@ public class EBook extends Book{
 	private String format;
 	
 	
-	EBook() {}
+	public EBook() {}
 
-	EBook(String title, String author, int publicationYear, double fileSize, String format) {
+	public EBook(String title, String author, int publicationYear, double fileSize, String format) {
 		super(title, author, publicationYear);
 		this.fileSize = fileSize;
 		this.format = format;
-		// TODO Auto-generated constructor stub
 	}
 	
 	@Override

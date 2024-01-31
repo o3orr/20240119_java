@@ -4,11 +4,13 @@ import java.util.*;
 public class Welcome {
 	static final int NUM_BOOK = 3;
 	static final int NUM_ITEM = 7;
+	static CartItem[] mCartItem = new CartItem[NUM_BOOK];
+	static int mCartCount = 0;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		String[][] mBook = new String[NUM_BOOK][NUM_ITEM]; //2차원배열 선언 비어있음
+		String[][] mBook = new String[NUM_BOOK][NUM_ITEM]; //2차원배열 [3][7] 선언
 		
 		
 		
@@ -78,7 +80,7 @@ public class Welcome {
 		}
 	}
 		
-		
+	//메인 메서드 끝	
 		
 		
 		
@@ -155,6 +157,9 @@ public class Welcome {
 					
 					if (str.equals("Y")) {
 						System.out.println(book[numId][0] + "도서가 장바구니에 추가되었습니다");
+						//장바구니에 넣기
+						if (!isCartInBook(book[numId][0]))
+							mCartItem[mCartCount++] = new CartItem(book[numId]);
 					}
 					quit = true;
 				} else
