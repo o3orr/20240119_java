@@ -44,11 +44,11 @@ public class GenericExample {
 		HomeAgency homeAgency = new HomeAgency();
 		//인터페이스에 제네릭이 붙어있는 것이고 그걸 구현한 객체는 그냥 클래스
 		Home home = homeAgency.rent();
-		home.turnOnLight();
+		//home.turnOnLight();
 		
 		CarAgency carAgency = new CarAgency();
 		Car car2 = carAgency.rent();
-		car.run();
+		//car.run();
 		
 		//T를 Integer로 대체
 		Box<Integer> b1 = boxing(100);

@@ -11,19 +11,19 @@ public class Car {
 	
 	public void roll() {
 		System.out.println("익명 자식 Tire 객체 1이 굴러갑니다");
-		}
+		}//익명 자식객체의 메서드
 	};
 	
 	public void run1() {
-		tire1.roll();
-		tire2.roll();
+		tire1.roll(); //그냥 객체사용
+		tire2.roll(); //익명객체사용
 		//필드에 있는 것 사용
 	}
 	
 	//메소드 안에서 익명객체 사용
 	public void run2() {
 		
-		//지역 변수에 Tire의 익명 객체 대입
+		//지역 변수 타입 Tire에 Tire의 익명 객체 대입
 		Tire tire = new Tire() {
 			
 			@Override
