@@ -10,6 +10,13 @@ public class QueenB {
 		} 
 		System.out.println();
 	}
+	
+	//i열에 퀸을 배치
+	static void set(int i) {
+		for (int j=0; i<8; j++) {
+			pos[i] = j;
+		}
+	}
 
 	public static void main(String[] args) {
 	

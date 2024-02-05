@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.util.SortedMap"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="aaa.Car"/>
     <fullyQualifiedTypeName name="Father"/>
@@ -51,7 +46,6 @@
     <fullyQualifiedTypeName name="Chap04.IntQueue.OverflowIntQueueException"/>
     <fullyQualifiedTypeName name="Chap04.IntQueue.EmptyIntQueueException"/>
     <fullyQualifiedTypeName name="ex01.Novel"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ex01.Speaker"/>
     <fullyQualifiedTypeName name="ex01.TV"/>
     <fullyQualifiedTypeName name="ex01.RemoteControl"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="ch13.sec01.A"/>
     <fullyQualifiedTypeName name="ch13.sec01.Tire"/>
     <fullyQualifiedTypeName name="ch13.sec01.Car"/>
+    <fullyQualifiedTypeName name="ch13.sec01.RemoteControl"/>
+    <fullyQualifiedTypeName name="ch11.Account"/>
+    <fullyQualifiedTypeName name="ch11.Person"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ex01.Product.Buyer"/>
+    <fullyQualifiedTypeName name="ex01.Product"/>
 </qualifiedTypeNameHistroy>
