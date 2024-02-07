@@ -23,7 +23,7 @@ public class LamdaExample {
 			System.out.println("프로그래밍을 합니다");
 		});
 		
-		person.action(()-> System.out.println("퇴근합니다"));
+		//person.action(()-> System.out.println("퇴근합니다"));
 
 	}
 	

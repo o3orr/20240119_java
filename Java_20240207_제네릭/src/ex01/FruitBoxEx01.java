@@ -13,14 +13,14 @@ class Orange {
 }
 
 
-class Box{ //사과담는 상자
-	private Object obj;
+class Box<T>{ //사과담는 상자
+	private T obj;
 	
-	void setObj(Object obj) {
+	void setObj(T obj) {
 		this.obj = obj;
 	}
 	
-	Object getObj() {
+	T getObj() {
 		return obj;
 	}
 }
@@ -30,13 +30,14 @@ public class FruitBoxEx01 {
 	
 	public static void main(String[] args) {
 
-		Box box = new Box();
+		Box<Apple> box1 = new Box();
+		Box<Orange> box2 = new Box();
 		
-		box.setObj(new Apple());
-		box.setObj(new Orange());
+		box1.setObj(new Apple());
+		box2.setObj(new Orange());
 		
-		Apple ap = (Apple) box.getObj();
-		Orange op = (Orange) box.getObj();
+		Apple ap = box1.getObj();
+		Orange op = box2.getObj();
 		
 	}
 

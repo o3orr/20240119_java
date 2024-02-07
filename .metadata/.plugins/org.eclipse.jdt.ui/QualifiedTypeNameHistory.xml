@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Father"/>
-    <fullyQualifiedTypeName name="Baby"/>
-    <fullyQualifiedTypeName name="Chicken"/>
-    <fullyQualifiedTypeName name="Bird"/>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="Example04"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="aaa.ArrayListExample"/>
-    <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
     <fullyQualifiedTypeName name="javax.swing.JMenu"/>
     <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
     <fullyQualifiedTypeName name="ex01.Student"/>
@@ -58,6 +46,18 @@
     <fullyQualifiedTypeName name="ex01.Product.Buyer"/>
     <fullyQualifiedTypeName name="ex01.Product"/>
     <fullyQualifiedTypeName name="ex01.buyer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ex01.Exception02"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="ex01.AppleBox"/>
+    <fullyQualifiedTypeName name="ex01.OrengeBox"/>
+    <fullyQualifiedTypeName name="ex01.Orenge"/>
+    <fullyQualifiedTypeName name="ex01.Box"/>
+    <fullyQualifiedTypeName name="java.lang.Appendable"/>
+    <fullyQualifiedTypeName name="ex01.Apple"/>
 </qualifiedTypeNameHistroy>
