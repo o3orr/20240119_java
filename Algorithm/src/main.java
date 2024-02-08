@@ -1,25 +1,27 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 class Solution {
-    public int[] solution(int[] arr) {
-        int[] answer = {};
-        Arrays.sort(arr);
-        List<int[]> list = Arrays.asList(arr);
-        list.remove(0);
-        
-        if(list.isEmpty()) {
-        	return new int[] {-1};
-        }
+    public int solution(int[] d, int budget) {
+        int answer = 0;
         return answer;
     }
 }
 
+
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-	}
+
+        for (int i=0; i<b; i++) {
+        	for (int j=0; j<a; j++) {
+        		System.out.print("*");
+        	}
+        	System.out.println();
+        }
+    }
 
 }

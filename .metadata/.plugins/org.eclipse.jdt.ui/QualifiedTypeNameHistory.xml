@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JMenu"/>
-    <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
-    <fullyQualifiedTypeName name="ex01.Student"/>
-    <fullyQualifiedTypeName name="ex01.Book"/>
-    <fullyQualifiedTypeName name="aaa.Thread"/>
-    <fullyQualifiedTypeName name="aaa.RemoteControl"/>
-    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
     <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
@@ -26,8 +17,6 @@
     <fullyQualifiedTypeName name="Account"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.graph.Node.Input"/>
     <fullyQualifiedTypeName name="ex01.A"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Chap04.IntQueue"/>
     <fullyQualifiedTypeName name="Chap04.IntQueue.OverflowIntQueueException"/>
     <fullyQualifiedTypeName name="Chap04.IntQueue.EmptyIntQueueException"/>
@@ -50,9 +39,7 @@
     <fullyQualifiedTypeName name="ex01.Exception02"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="ex01.AppleBox"/>
     <fullyQualifiedTypeName name="ex01.OrengeBox"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="ex01.Box"/>
     <fullyQualifiedTypeName name="java.lang.Appendable"/>
     <fullyQualifiedTypeName name="ex01.Apple"/>
+    <fullyQualifiedTypeName name="aaa.Box"/>
+    <fullyQualifiedTypeName name="aaa.Tv"/>
+    <fullyQualifiedTypeName name="aaa.Product"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="aaa.HomeAgency"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
