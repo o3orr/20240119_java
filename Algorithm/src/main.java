@@ -1,8 +1,16 @@
 import java.util.*;
 
 class Solution {
-    public int solution(int[] d, int budget) {
-        int answer = 0;
+    public String solution(String s, int n) {
+        String answer = "";
+        String[] code = s.split(""); // ['A', 'B']
+        for (int i=0; i<code.length; i++) {
+        	if (code[i].equals(" ")) {
+        		continue;
+        	}
+        	
+        	//code.ch
+        }
         return answer;
     }
 }

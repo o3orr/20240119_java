@@ -24,6 +24,7 @@ public class GenericMethod01 {
 	public static void main(String[] args) {
 		
 		Box<Integer> ibox = new Box<>();
+		
 
 	}
 
