@@ -27,6 +27,9 @@ public class AdminMenu extends AbstractMenu{
 	@Override
 	public Menu next() {
 		switch(sc.nextLine()) {
+		case "1" :
+			createMovie(); //영화 등록 진행
+			return this;
 		case "2" : 
 			try {
 				printAllMovie();
@@ -34,6 +37,9 @@ public class AdminMenu extends AbstractMenu{
 				e.printStackTrace();
 			}   //영화 목록 출력
 			return this; //영화목록 출력한 후 adminMenu 반환
+		case "3" :
+			deleteMovie();
+			return this;
 		case "b" : return prevMenu; //b입력하면, 이전 메뉴 반환 Main
 		default : return this; //자기자신 AdminMenu객체 ==> new AdminMenu(null);
 		}
@@ -41,6 +47,36 @@ public class AdminMenu extends AbstractMenu{
 
 	
 	
+	private void deleteMovie() {
+		try {
+			printAllMovie();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} // 전체 목록 출력한다
+		
+		System.out.println("삭제할 영화의 id값을 입력하세요: ");
+		
+		Movie.delete(sc.nextLine()); //movie의 delete함수 호출
+		System.out.println(">> 삭제되었습니다");
+	}
+	
+
+	private void createMovie() {
+		
+		System.out.print("제목: ");
+		String title = sc.nextLine();
+		
+		System.out.print("장르: ");
+		String genre = sc.nextLine();
+		
+		Movie movie = new Movie(title, genre);
+		
+		movie.save(); //movie의 save함수 호출
+		System.out.println(">> 저장되었습니다");
+		
+	}
+
 	private void printAllMovie() throws IOException {
 	
 		ArrayList<Movie> movies = Movie.findAll();
