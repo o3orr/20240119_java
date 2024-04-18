@@ -1,5 +1,7 @@
 package movie;
 
+import java.util.List;
+
 public class MainMenu extends AbstractMenu{
 
 	private static final MainMenu instance = new MainMenu(null);
@@ -25,6 +27,9 @@ public class MainMenu extends AbstractMenu{
 	@Override
 	public Menu next() {
 		switch(sc.nextLine()) {
+		case "1" :
+			reserve(); //영화 예매
+			return this;
 		case "2" :
 			checkReservation();  //예매 확인
 			return this; //메인메뉴 객체 반환 (다시 메인메뉴가 나타난다)
@@ -45,6 +50,16 @@ public class MainMenu extends AbstractMenu{
 
 	
 	
+	private void reserve() {
+		try {
+			List<Movie> movies = Movie.findAll();
+			for(Movie movie : movies) {
+				
+			}
+		}
+		
+	}
+
 	private void checkReservation() {
 		System.out.println("예매번호를 입력하세요: ");
 		
